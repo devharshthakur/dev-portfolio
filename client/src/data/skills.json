@@ -1,0 +1,31 @@
+[
+    {
+      "name": "HTML",
+      "icon": "FaHtml5"
+    },
+    {
+      "name": "CSS",
+      "icon": "FaCss3Alt"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "FaJsSquare"
+    },
+    {
+      "name": "React",
+      "icon": "FaReact"
+    },
+    {
+      "name": "Tailwind",
+      "icon": "SiTailwindcss"
+    },
+    {
+      "name": "NextJs",
+      "icon": "SiNextdotjs"
+    },
+    {
+      "name": "Typescript",
+      "icon": "SiTypescript"
+    }
+  ]
+  

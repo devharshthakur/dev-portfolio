@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Simple Password Manager (Not Deployed)",
+      "description": "It encypts then store th data,it has search features using keys",
+      "githubUrl": "#",
+      "liveDemoUrl": "#"
+    },
+    {
+      "title": "Orbit (In Devolopment)",
+      "description": "A Simple TodoList App with login/sign up feature.This is a personel project for learning",
+      "githubUrl": "#",
+      "liveDemoUrl": "#"
+    },
+    {
+      "title": "Vakil (In Devolopment)",
+      "description": "An AI based Legal Assistant (FINAL YEAR MAJOR PROJECT)",
+      "githubUrl": "#",
+      "liveDemoUrl": "#"
+    }
+]
+  
