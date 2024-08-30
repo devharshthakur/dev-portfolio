@@ -3,7 +3,7 @@ import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from 'react-icons/fa';
 import { SiTailwindcss,SiTypescript,SiNextdotjs } from 'react-icons/si';
 import skillsData from '@/data/skills.json';
 
-const iconMap: { [key: string]: React.ComponentType } = {
+const iconMap: { [key: string]: React.ComponentType<React.SVGProps<SVGSVGElement>> } = {
   FaHtml5: FaHtml5,
   FaCss3Alt: FaCss3Alt,
   FaJsSquare: FaJsSquare,
