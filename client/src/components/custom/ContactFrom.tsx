@@ -71,7 +71,7 @@ export function ContactForm() {
 
   return (
     <section className="grid gap-6">
-      <h2 className="text-2xl font-bold">Contact Me</h2>
+      <h2 className="text-2xl font-bold">Contact Me(Not Working . . . )</h2>
       <form className="grid gap-4" onSubmit={handleSubmit}>
         <div className="grid gap-2">
           <Label htmlFor="name">Name</Label>

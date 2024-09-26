@@ -1,16 +1,24 @@
 import Image from 'next/image';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from 'react-icons/fa';
-import { SiTailwindcss,SiTypescript,SiNextdotjs } from 'react-icons/si';
+import {
+  SiTailwindcss,
+  SiTypescript,
+  SiNextdotjs,
+  SiPrisma,
+} from 'react-icons/si';
 import skillsData from '@/data/skills.json';
 
-const iconMap: { [key: string]: React.ComponentType<React.SVGProps<SVGSVGElement>> } = {
+const iconMap: {
+  [key: string]: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+} = {
   FaHtml5: FaHtml5,
   FaCss3Alt: FaCss3Alt,
   FaJsSquare: FaJsSquare,
   FaReact: FaReact,
   SiTailwindcss: SiTailwindcss,
-  SiTypescript:SiTypescript,
-  SiNextdotjs:SiNextdotjs
+  SiTypescript: SiTypescript,
+  SiNextdotjs: SiNextdotjs,
+  SiPrisma: SiPrisma,
 };
 
 export function ProfileSection() {
