@@ -1,6 +1,11 @@
 import Image from 'next/image';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from 'react-icons/fa';
-import { SiTailwindcss, SiTypescript, SiNextdotjs, SiPrisma } from 'react-icons/si';
+import {
+  SiTailwindcss,
+  SiTypescript,
+  SiNextdotjs,
+  SiPrisma,
+} from 'react-icons/si';
 import skillsData from '@/data/skills.json';
 
 const iconMap: {
@@ -13,7 +18,7 @@ const iconMap: {
   SiTailwindcss: SiTailwindcss,
   SiTypescript: SiTypescript,
   SiNextdotjs: SiNextdotjs,
-  SiPrisma:SiPrisma
+  SiPrisma: SiPrisma,
 };
 
 export function ProfileSection() {
