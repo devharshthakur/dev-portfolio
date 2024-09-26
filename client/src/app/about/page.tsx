@@ -19,7 +19,7 @@ export default function Component() {
       <div className="max-w-2xl text-center">
         <p className="text-lg">
           I am basicaly a full stack web devoloper based in india & an undergraduate student 
-          in <Link href='https://vit.edu.in/' >"<span className="font-bold underline">Vidyalanakar Institute of Technology</span>"</Link> persuing BE in Computer Engineering.  
+          in <Link href='https://vit.edu.in/' >&quot;<span className="font-bold underline">Vidyalanakar Institute of Technology</span>&quot;</Link> persuing BE in Computer Engineering.  
         </p>
         <p className="mt-4 text-lg">
           I&apos;ve always been fascinated by the intersection of technology and design,
