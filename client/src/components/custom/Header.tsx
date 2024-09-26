@@ -21,6 +21,9 @@ export function Header() {
         >
           About Me
         </Link>
+        <Button variant={"outline"}>
+          <Link href={"/blogs"}>Blogs</Link>
+        </Button>
         <ModeToggle className="h-5 w-5" />
       </div>
     </header>

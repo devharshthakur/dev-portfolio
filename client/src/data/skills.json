@@ -26,6 +26,10 @@
     {
       "name": "Typescript",
       "icon": "SiTypescript"
+    },
+    {
+      "name": "Prisma",
+      "icon": "SiPrisma"
     }
   ]
   

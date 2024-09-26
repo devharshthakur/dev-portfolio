@@ -1,6 +1,9 @@
 import { GithubIcon } from '@/components/icons/icons';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
+import { SiLinkedin } from "react-icons/si";
+import { HiOutlineMailOpen } from "react-icons/hi";
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export default function Component() {
   return (
@@ -11,44 +14,50 @@ export default function Component() {
       </Avatar>
       <div className="text-center">
         <h1 className="text-2xl font-bold">Harsh Thakur</h1>
-        <p className="text-muted-foreground">AI Management</p>
+        <p className="text-muted-foreground">Fullstack Web-Devoloper</p>
       </div>
       <div className="max-w-2xl text-center">
         <p className="text-lg">
-          As an industrial designer, I&apos;m passionate about creating innovative
-          product designs that are both functional and aesthetically pleasing.
-          My goal is to enhance the user experience by thoughtfully considering
-          every aspect of a product&apos;s design, from its form and materials to its
-          interaction and usability.
+          I am basicaly a full stack web devoloper based in india & an undergraduate student 
+          in <Link href='https://vit.edu.in/' >"<span className="font-bold underline">Vidyalanakar Institute of Technology</span>"</Link> persuing BE in Computer Engineering.  
         </p>
         <p className="mt-4 text-lg">
-          Born and raised in India, I&apos;ve always been fascinated by the
-          intersection of technology and design. After completing my studies, I
-          decided to pursue my dream of working in the tech industry and moved
-          to New York City, where I&apos;ve been based for the past 5 years. During
-          this time, I&apos;ve had the opportunity to work with a variety of clients,
-          from startups to established corporations, on a wide range of
-          projects.
+          I&apos;ve always been fascinated by the intersection of technology and design,
+          I got intrestd to know how frontend interacts with backend in web applications,
+          How it internaly works & how they are deployed from where I got intreast in backend devolopment in javascript(NodeJs).
+          I got mainly intreasted in javascript/typescript and technologies based on it as I was into web devolopment
         </p>
         <p className="mt-4 text-lg">
-          When I&apos;m not designing, you can find me exploring the city&apos;s vibrant
-          art scene, hiking in the nearby mountains, or tinkering with the
-          latest gadgets and technologies. I&apos;m always eager to learn and grow,
-          and I&apos;m excited to continue pushing the boundaries of what&apos;s possible
-          in the world of industrial design.
+          I devolop applications in NextJs.
+          During this time, I got the opportunity to work with a variety
+          of famous technologies & managed services on a wide range of projects such learn to connect databases, 
+          creating apis, creating projects in mono repos understanding it etc. 
+        </p>
+        <p className="mt-4 text-lg">
+          I&apos;m a fresher & am always eager to learn and grow.
         </p>
       </div>
       <div className="text-center">
         <p className="text-lg">From: India</p>
-        <p className="text-lg">Based in: New York, USA</p>
+        <p className="text-lg">Based in: Mumbai</p>
       </div>
-      <div className="text-center">
-        <a className="flex items-center gap-2" href="#">
+      <div className="flex flex-col text-center">
+        <div className="flex flex-wrap justify-center">
+        <a className="flex items-center gap-2 mx-12" href="https://github.com/devharshthakur">
           <GithubIcon className="h-5 w-5" />
-          @devharshthakur
+          <span className="font-bold">@devharshthakur</span>
         </a>
+        <a className="flex items-center gap-2 mx-12" href="https://www.linkedin.com/in/harsh-thakur-bb6b18231">
+          <SiLinkedin className="h-5 w-5" />
+          <span className="font-bold underline">Harsh Thakur</span>
+        </a>
+        <a className="flex items-center gap-2 mx-12" href="https://www.linkedin.com/in/harsh-thakur-bb6b18231">
+          <HiOutlineMailOpen className="h-5 w-5" />
+          <span className="underline">workharshthakur2002@gmail.com</span>
+        </a>
+        </div>
         <Button variant="outline" className="mt-4">
-          Download Resume
+          Download Resume(Comming Soon . . )
         </Button>
       </div>
     </div>

@@ -1,9 +1,9 @@
 [
     {
-      "title": "Simple Password Manager (Not Deployed)",
+      "title": "Simple Password Manager",
       "description": "It encypts then store th data,it has search features using keys",
-      "githubUrl": "#",
-      "liveDemoUrl": "#"
+      "githubUrl": "https://github.com/devharshthakur/password-manager.git",
+      "liveDemoUrl": "https://password-manager-khaki-three.vercel.app/"
     },
     {
       "title": "Orbit (In Devolopment)",
