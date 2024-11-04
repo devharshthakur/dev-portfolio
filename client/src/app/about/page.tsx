@@ -35,6 +35,7 @@ export default function AboutPage() {
                         <FaGithub className="h-5 w-5" />
                         @devharshthakur
                      </a>
+                      
                      <a
                         className="flex items-center gap-2 rounded-full bg-muted px-4 py-2 text-sm font-medium transition-colors hover:bg-muted/80"
                         href="https://www.linkedin.com/in/harsh-thakur-bb6b18231"
