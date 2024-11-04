@@ -6,15 +6,9 @@
       "liveDemoUrl": "https://password-manager-khaki-three.vercel.app/"
     },
     {
-      "title": "Orbit (In Devolopment)",
-      "description": "A Simple TodoList App with login/sign up feature.This is a personel project for learning",
-      "githubUrl": "#",
-      "liveDemoUrl": "#"
-    },
-    {
-      "title": "Vakil (In Devolopment)",
+      "title": "Legal AI PDF (In Devolopment)",
       "description": "An AI based Legal Assistant (FINAL YEAR MAJOR PROJECT)",
-      "githubUrl": "#",
+      "githubUrl": "https://github.com/Anuragc123/LegalPDF.git",
       "liveDemoUrl": "#"
     }
 ]
