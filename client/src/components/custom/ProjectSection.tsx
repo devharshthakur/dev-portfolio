@@ -1,12 +1,22 @@
+import Link from 'next/link';
 import projectsData from '@/data/projects.json';
 import { ProjectCard } from './ProjectCard';
+import { Button } from '@/components/ui/button';
 
 export function ProjectsSection() {
+   // Get only the latest 4 projects
+   const latestProjects = projectsData.slice(0, 4);
+
    return (
       <section className="grid gap-6">
-         <h2 className="text-2xl font-bold">Projects</h2>
-         <div className="grid grid-cols-2 gap-4 sm:grid-cols-2">
-            {projectsData.map((project, index) => (
+         <div className="flex items-center justify-between">
+            <h2 className="text-2xl font-bold">Projects</h2>
+            <Button variant="outline" size="sm" asChild>
+               <Link href="/projects">View All Projects</Link>
+            </Button>
+         </div>
+         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {latestProjects.map((project, index) => (
                <ProjectCard
                   key={index}
                   title={project.title}

@@ -1,15 +1,33 @@
 [
     {
       "title": "Simple Password Manager",
-      "description": "It encypts then store th data,it has search features using keys",
+      "description": "It encrypts then stores the data, it has search features using keys",
+      "longDescription": "A secure password manager that uses encryption to protect sensitive data. Features include password storage, search functionality, and secure encryption.",
       "githubUrl": "https://github.com/devharshthakur/password-manager.git",
-      "liveDemoUrl": "https://password-manager-khaki-three.vercel.app/"
+      "liveDemoUrl": "https://password-manager-khaki-three.vercel.app/",
+      "date": "2024-03",
+      "duration": "1 week",
+      "tags": ["Next.js", "TypeScript", "Encryption", "Security"],
+      "status":"changing"
     },
     {
-      "title": "Legal AI PDF (In Devolopment)",
+      "title": "Legal AI PDF (In Development)",
       "description": "An AI based Legal Assistant (FINAL YEAR MAJOR PROJECT)",
+      "longDescription": "A comprehensive AI-driven legal assistant designed to streamline legal document processing and provide intelligent insights.",
       "githubUrl": "https://github.com/Anuragc123/LegalPDF.git",
-      "liveDemoUrl": "#"
+      "liveDemoUrl": "#",
+      "date": "2024-04",
+      "duration": "6 months",
+      "tags": ["AI", "Legal Tech", "Machine Learning"]
+    },
+    {
+      "title": "BlockPredict",
+      "description": "A Simple ML based prediction simulation using BlockChain",
+      "longDescription": "An innovative tool that simulates the prediction done by ML models using blockchain for weight management.",
+      "githubUrl": "https://github.com/devharshthakur/blockpredict.git",
+      "liveDemoUrl": "local",
+      "date": "2024-05",
+      "duration": "1 month",
+      "tags": ["Machine Learning", "Blockchain", "Simulation"]
     }
 ]
-  
