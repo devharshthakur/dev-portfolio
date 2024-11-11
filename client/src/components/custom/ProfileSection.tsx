@@ -1,4 +1,7 @@
+'use client';
+
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from 'react-icons/fa';
 import { SiTailwindcss, SiTypescript, SiNextdotjs, SiPrisma } from 'react-icons/si';
 import skillsData from '@/data/skills.json';
@@ -6,14 +9,14 @@ import skillsData from '@/data/skills.json';
 const iconMap: {
    [key: string]: React.ComponentType<React.SVGProps<SVGSVGElement>>;
 } = {
-   FaHtml5: FaHtml5,
-   FaCss3Alt: FaCss3Alt,
-   FaJsSquare: FaJsSquare,
-   FaReact: FaReact,
-   SiTailwindcss: SiTailwindcss,
-   SiTypescript: SiTypescript,
-   SiNextdotjs: SiNextdotjs,
-   SiPrisma: SiPrisma,
+   FaHtml5,
+   FaCss3Alt,
+   FaJsSquare,
+   FaReact,
+   SiTailwindcss,
+   SiTypescript,
+   SiNextdotjs,
+   SiPrisma,
 };
 
 export function ProfileSection() {
@@ -33,14 +36,19 @@ export function ProfileSection() {
                <p className="text-muted-foreground">Full Stack Web Developer</p>
             </div>
          </div>
-         <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 md:grid-cols-5">
+         <div className="grid grid-cols-2 gap-5 sm:grid-cols-4 md:grid-cols-5">
             {skillsData.map((skill, index) => {
                const IconComponent = iconMap[skill.icon];
                return (
-                  <div key={index} className="flex flex-col items-center gap-2">
-                     <IconComponent className="h-8 w-8" />
+                  <motion.div
+                     key={index}
+                     className="flex flex-col items-center gap-2 rounded-md border border-border p-2"
+                     whileHover={{ scale: 1.05, boxShadow: '0 0 8px rgba(0, 0, 0, 0.1)' }}
+                     transition={{ type: 'spring', stiffness: 300 }}
+                  >
+                     <IconComponent className="h-8 w-8 text-primary" />
                      <span className="text-sm font-medium">{skill.name}</span>
-                  </div>
+                  </motion.div>
                );
             })}
          </div>
