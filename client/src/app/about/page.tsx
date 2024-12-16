@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from 'react-icons/fa';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -75,8 +75,11 @@ export default function AboutPage() {
                   </p>
                   <p>As a fresher, I&apos;m always eager to learn and grow in the field of web development.</p>
                </div>
-               <Button variant="outline" className="mt-8" disabled>
-                  Download Resume (Coming Soon...)
+               <Button variant="outline" className="mt-8" asChild>
+                  <a href="/cv.pdf" download="harsh_thakur_cv.pdf" rel="noopener" className="flex items-center gap-2">
+                     <FaDownload className="h-4 w-4" />
+                     Download CV
+                  </a>
                </Button>
             </div>
          </div>

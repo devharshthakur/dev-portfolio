@@ -1,14 +1,13 @@
 [
     {
-      "title": "Simple Password Manager",
+      "title": "Simple Password Manager (Secure Pass)",
       "description": "It encrypts then stores the data, it has search features using keys",
       "longDescription": "A secure password manager that uses encryption to protect sensitive data. Features include password storage, search functionality, and secure encryption.",
-      "githubUrl": "https://github.com/devharshthakur/password-manager.git",
-      "liveDemoUrl": "https://password-manager-khaki-three.vercel.app/",
+      "githubUrl": "https://github.com/devharshthakur/secure-pass.git",
+      "liveDemoUrl": "local",
       "date": "2024-03",
       "duration": "1 week",
-      "tags": ["Next.js", "TypeScript", "Encryption", "Security"],
-      "status":"changing"
+      "tags": ["Next.js", "TypeScript", "Encryption", "Security"]
     },
     {
       "title": "Legal AI PDF (In Development)",
