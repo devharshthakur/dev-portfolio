@@ -30,6 +30,14 @@
     {
       "name": "Prisma",
       "icon": "SiPrisma"
+    },
+    {
+      "name": "NestJs",
+      "icon": "SiNestjs"
+    },
+    {
+      "name": "Docker",
+      "icon": "SiDocker"
     }
   ]
   

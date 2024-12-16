@@ -2,7 +2,7 @@
 import { Header } from '@/components/custom/Header';
 import { ProfileSection } from '@/components/custom/ProfileSection';
 import { ProjectsSection } from '@/components/custom/ProjectSection';
-import { ContactForm } from '@/components/custom/ContactFrom';
+import ContactForm from '@/components/custom/ContactFrom';
 
 export default function MainComponent() {
    return (
