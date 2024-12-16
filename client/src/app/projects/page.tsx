@@ -19,7 +19,7 @@ interface Project {
    tags: string[];
    status?: string;
 }
-
+const typedProjectsData = projectsData as Project[];
 export default function ProjectsPage() {
    const handleLocalDemo = () => {
       alert('This project needs to be run locally. Please follow the instructions in the GitHub repository.');
@@ -36,7 +36,7 @@ export default function ProjectsPage() {
             </div>
             <div className="mx-auto max-w-6xl">
                <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                  {projectsData.map((project, index) => (
+                  {typedProjectsData.map((project, index) => (
                      <Card
                         key={index}
                         className="flex h-full flex-col border-2 transition-all hover:border-primary hover:shadow-md"
