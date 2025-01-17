@@ -4,6 +4,8 @@ import { cn } from '@/lib/utils';
 import { ReactNode } from 'react';
 import { ThemeProvider } from '@/components/util/theme-provider';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
+
 import './globals.css';
 
 const fontHeading = Space_Mono({
@@ -30,6 +32,7 @@ export default function Layout({ children }: LayoutProps) {
          <body className={cn('antialiased', fontHeading.variable, fontBody.variable)}>
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
                {children}
+               <Analytics />
                <SpeedInsights />
             </ThemeProvider>
          </body>
