@@ -28,5 +28,15 @@
       "date": "2024-05",
       "duration": "1 month",
       "tags": ["Machine Learning", "Blockchain", "Simulation"]
+    },
+    {
+      "title": "Orrbit",
+      "description": "A modern web-based PDF compression tool with secure client-side processing",
+      "longDescription": "A full-stack web application that enables users to compress PDF files efficiently without compromising quality, featuring real-time compression progress and secure file handling where files never leave the user's device.",
+      "githubUrl": "https://github.com/devharshthakur/orrbit.git",
+      "liveDemoUrl": "local",
+      "date": "2024-03",
+      "duration": "2 months",
+      "tags": ["Next.js", "NestJS", "TypeScript", "PDF Processing", "Prisma"]
     }
 ]
